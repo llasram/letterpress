@@ -31,7 +31,7 @@ hyper-local configuration for printing of Clojure data.
 ## Usage
 
 Simply require the `letterpress.core` namespace, then call that namespace’s
-`pr`, `prn`, and/or `pr-str` functions.  These functions are just their
+`pr`, `prn`, and/or `pr-str` functions.  These functions are just like their
 `clojure.core` namesakes, except that they require an an initial map of
 configuration options.  This map may contain the following keys:
 
@@ -75,8 +75,8 @@ local print and read configuration:
 The capabilities letterpress provides are implemented in part by replacing
 `clojure.core/print-method` with a different object.  All effort is made to make
 this replacement as safe and compatible as possible, but monkey-patching remains
-inherently a kludgy, dangerous, and shameful mechanism.  We hope that one day
-the capabilities of letterpress will be part of Clojure itself instead.
+inherently a kludgy, dangerous, and shameful activity.  We hope that one day the
+capabilities of letterpress will be part of Clojure itself instead.
 
 ## License
 

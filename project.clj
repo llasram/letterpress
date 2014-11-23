@@ -1,4 +1,4 @@
-(defproject org.platypope/letterpress "0.1.0-SNAPSHOT"
+(defproject org.platypope/letterpress "0.1.0"
   :description "Locally-configurable Clojure data printers."
   :url "https://github.com/llasram/letterpress"
   :license {:name "Eclipse Public License"
